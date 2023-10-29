@@ -29,14 +29,12 @@
     text-transform: uppercase;
 }
 
-.page-header {
-    padding-top: 16px;
-    padding-bottom: 16px;
+.container.page-header-container {
+    padding: 16px;
 }
 
 .page-header-container {
     display: flex;
-    height: 56px;
     align-items: center;
     justify-content: space-between;  
 }
@@ -46,6 +44,7 @@
     background-color: transparent;
     padding: 0;
     line-height: 0;
+    margin-right: 16px;
 }
 
 .mobile-menu {
@@ -55,7 +54,12 @@
     width: 100%;
     height: 100%;
     z-index: 9999999;
+    transform: translateX(100%);
     background-color: #fff;
+}
+
+.mobile-menu.is-open {
+    transform: translateX(0%);
 }
 
 .mobile-menu-close-btn {
@@ -111,16 +115,17 @@
     gap: 24px;
 }
 
-.mobile-number {
-    color: var(--IRIS, #4D5AE5);
-}
-
+ 
 .mobile-address-item {
     color: #434455;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.7;
-    letter-spacing: 0.025em;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.mobile-number {
+    color: var(--IRIS, #4D5AE5);
 }
 
 .mobile-menu-social {
@@ -149,6 +154,78 @@
 .social-link-menu-icon {
     
 }
+
+@media screen and (min-width: 768px) {
+    .open-mobile-menu {
+        display: none;
+    }
+
+    .page-header-container {
+        display: flex;
+        padding: 16px;
+    }
+
+    .logotype {
+        margin-right: 120px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-link {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-link {
+    padding: 24px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.current {
+    position: relative;
+    color: #404bbf;
+}
+
+.current::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        width: 100%;
+        height: 4px;
+        background-color: #404bbf;
+        border-radius: 2px;
+}
+
+.contact-link {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        /* 116.667% */
+        letter-spacing: 0.48px;
+        color: var(--SLATE, #434455);
+}
+
+}
+
+
 
 /* .page-header {
     border-bottom: 1px solid #e7e9fc;
