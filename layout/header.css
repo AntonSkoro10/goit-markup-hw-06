@@ -29,14 +29,13 @@
     text-transform: uppercase;
 }
 
-.container.page-header-container {
-    padding: 16px;
-}
+
 
 .page-header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;  
+    justify-content: space-between; 
+    padding: 16px; 
 }
 
 .open-mobile-menu {
@@ -160,9 +159,8 @@
         display: none;
     }
 
-    .page-header-container {
-        display: flex;
-        padding: 16px;
+    .page-header > .container {
+       padding: 0 16px;
     }
 
     .logotype {
@@ -174,6 +172,10 @@
 .menu {
     display: flex;
     gap: 40px;
+}
+
+.address-link {
+    display: block;
 }
 
 .menu-link {
@@ -188,7 +190,8 @@
 }
 
 .header-link {
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
