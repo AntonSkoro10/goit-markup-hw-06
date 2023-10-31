@@ -3,6 +3,7 @@
 @import'./base/common.css';
 @import'./base/container.css';
 @import'./base/sections.css';
+@import'./base/modal.css';
 
 /* UTILS */
 
@@ -12,4 +13,3 @@
 
 @import'./layout/header.css';
 @import'./layout/footer.css';
-@import'./layout/modal.css;'

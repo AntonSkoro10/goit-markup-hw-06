@@ -1,6 +1,6 @@
 /* FOOTER */
 
-.footer-section {
+.footer-section  {
     background-color: #2e2f42;
     padding-top: 96px;
     padding-bottom: 96px;
@@ -98,6 +98,7 @@
 }
 
 .paragraph-form-footer {
+    margin-top: 72px;
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
