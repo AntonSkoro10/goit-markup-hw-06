@@ -1,4 +1,4 @@
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1440px) {
     .icons {
         display: none;
     }
@@ -8,14 +8,11 @@
             flex-wrap: wrap;
             gap: 72px 24px;
         }
+         
+          
 }
  
-@media screen and (min-width: 1158px) and (max-width: 1439px) {
-    .team-item {
-        width: 264px;
-    }
-    
-}
+
 
 
 /* HERO-SECTION */
@@ -105,11 +102,7 @@
 
 
 /* SECTION-1 */
-@media screen and (max-width: 768px) {
-    .icons {
-        display: none;
-    }
-}
+
 
 .purpose {
     padding-top: 96px;
@@ -131,7 +124,7 @@
         letter-spacing: 0.32px
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px)  {
     .purpose-list {
         display: flex;
         flex-wrap: wrap;
@@ -345,7 +338,7 @@
        }
 }
  
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
     .hero-section {
             max-width: 1440px;
             background-repeat: no-repeat;
@@ -400,6 +393,8 @@
          .portfolio-item {
             width: calc((100% - 48px) / 3);
          }
+
+         
 
 }
 

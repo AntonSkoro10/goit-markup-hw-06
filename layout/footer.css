@@ -216,6 +216,29 @@
     }
 }
 
+@media screen and (min-width: 1158px) {
+    .footer-section > .container {
+        gap: 0;
+        justify-content: center;
+    }
+
+    .footer-container {
+        align-items: baseline;
+    }
+
+    .paragraph-form-footer {
+        margin-top: 0;
+    }
+
+    .footer-subscribe {
+        margin-left: 80px;
+    }
+
+    .logo-container {
+        margin-right: 120px;
+    }
+}
+
 /* .footer-section  {
     background-color: #2e2f42;
     padding-top: 100px;
