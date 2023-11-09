@@ -1,4 +1,9 @@
-
+@media screen and (max-width: 1157px){
+    .icons {
+        display: none;
+    }
+    
+}
  
 
 
