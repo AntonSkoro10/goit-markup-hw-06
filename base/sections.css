@@ -1,16 +1,4 @@
-@media screen and (max-width: 1440px) {
-    .icons {
-        display: none;
-    }
 
-        .purpose-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 72px 24px;
-        }
-         
-          
-}
  
 
 
@@ -27,7 +15,7 @@
 
 
 .hero-section {
-    padding: 112px 0;
+    padding: 72px 0;
     background-color: #2e2f42;
     background-repeat: no-repeat;
     text-align: center;
@@ -99,6 +87,7 @@
     
     
 }
+
 
 
 /* SECTION-1 */
@@ -341,14 +330,13 @@
 @media screen and (min-width: 1158px) {
     .hero-section {
             max-width: 1440px;
-            background-repeat: no-repeat;
-            background-position: center;
-            margin-right: auto;
-            margin-left: auto;
-            text-align: center;
             padding: 188px 0;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background/background-img.jpg);
             background-size: cover;
+    }
+
+    .purpose {
+        padding: 120px 0;
     }
 
          .purpose-list {
